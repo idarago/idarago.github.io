@@ -1,0 +1,19 @@
+---
+layout: default
+title: "Home"
+bokeh: true
+---
+
+{% if site.show_excerpts %}
+  {% include home.html %}
+{% else %}
+  {% include archive.html title="Posts" %}
+{% endif %}
+
+{%if page.bokeh  %}
+<script type="text/javascript" src="https://cdn.pydata.org/bokeh/release/bokeh-2.3.3.min.js"></script>
+<script src="https://cdn.bokeh.org/bokeh/release/bokeh-widgets-2.3.3.min.js"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.bokeh.org/bokeh/release/bokeh-tables-2.3.3.min.js"
+    crossorigin="anonymous"></script>
+{% endif  %}
