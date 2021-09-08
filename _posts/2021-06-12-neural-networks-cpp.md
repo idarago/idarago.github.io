@@ -222,7 +222,7 @@ protected:
     MatrixXf _outputs;
     MatrixXf _gradient_W;
     MatrixXf _gradient_b;
-    MatrixXf _gradient_x; // Saves the gradient of loss function wrt inputs of the PREVIOUS layer!
+    MatrixXf _gradient_x;
 };
 {% endhighlight %}
 
