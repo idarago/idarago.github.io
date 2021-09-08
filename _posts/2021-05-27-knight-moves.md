@@ -7,7 +7,7 @@ excerpt_separator: <!--more-->
 
 In chess, the <i>knight</i> is a piece that moves in an $$L$$-shaped fashion: that is, it may move two squares vertically and one square horizontally, or two squares horizontally and one square vertically.
 
-The following snippet lets you click any two tiles on a chessboard and shows the shortest path a knight can take to go from one to the other.
+The following snippet lets you <b>click any two tiles</b> on a chessboard and shows the shortest path a knight can take to go from one to the other.
 
 
 <center>
