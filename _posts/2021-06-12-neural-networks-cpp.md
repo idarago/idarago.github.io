@@ -69,7 +69,7 @@ $$\dfrac{\partial x^{(\ell+1)}_k}{\partial x^{(\ell)}_i} = \sigma'\left(\sum_j W
 It is very useful to write this equation in matrix form. If we denote by $$\nabla_{\mathbf{x}^{(\ell)}}L$$ to be the vector with coordinates 
 
 <center>
-$$\nabla_{\mathbf{x}^{(\ell)}}L = \left(\dfrac{\partial L}{\partial x^{(\ell)}_1},\ldots,\dfrac{\partial L}{\partial x^{(\ell)}_n}\right)$$,
+$$\nabla_{\mathbf{x}^{(\ell)}}L = \left(\dfrac{\partial L}{\partial x^{(\ell)}_1},\ldots,\dfrac{\partial L}{\partial x^{(\ell)}_n}\right),$$
 </center>
 
 then the previous discussion tells us that
