@@ -271,7 +271,7 @@ The advantage of the sigmoid function is that it's smooth and bounded, and it's 
 
 Here's the implementation of the ```ReLU``` layer, inheriting from our ```AbstractLayer``` class. The implementation of the ```Linear``` and ```Sigmoid``` layers is very similar.
 
-We only need to calculate the gradient of the pass with respect to each variable. For this we make use of the main equations of the previous section. A word of caution, the actual implementation of this is slightly different because we will want to look at the average of the gradients of a batch instead of a single input vector, but this simplified version contains all of the essencial.
+We only need to calculate the gradient of the pass with respect to each variable. For this we make use of the main equations of the previous section. A word of caution, the actual implementation of this is slightly different because we will want to look at the average of the gradients of a batch instead of a single input vector, but this simplified version contains all of the essential.
 
 {% highlight cpp %}
 // ReLU layer: the activation is the ReLU function
